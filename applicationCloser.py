@@ -2,8 +2,7 @@ import os
 
 def openFile():
     os.startfile()
-
-
+    
 def closeFile():
     try: 
         os.system('TASKKILL /F /IM VALORANT-Win64-Shipping.exe') 
