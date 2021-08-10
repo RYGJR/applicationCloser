@@ -5,7 +5,7 @@ def openFile():
     
 def closeFile():
     try: 
-        os.system('TASKKILL /F /IM VALORANT-Win64-Shipping.exe') 
+        os.system('TASKKILL /F /IM INSERTASKNAME') 
     except Exception as e: print(e)
 
 closeFile()
